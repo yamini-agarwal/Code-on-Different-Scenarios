@@ -13,7 +13,7 @@ public class GoogleNameLinks{
         // Click on Search box Using Locator "Name" q
         WebElement search_box = driver.findElementByName("q");
         // Type "Yamini Agarwal" in search box Using Locator "Name" q
-        search_box.sendKeys("Yamini Agarwal");
+        search_box.sendKeys("Yamini");
         // Click on "Google Search" button Using Locator "XPath" (//input[@value='Google Search'])[1]
         driver.findElementByXPath("(//input[@value='Google Search'])[1]").click();
         // Locate all the hyperlinks on the webpage and get the total count of the hyperlinks Using Locator "Partial Link Text" yamini or Yamini
